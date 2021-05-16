@@ -1,0 +1,71 @@
+---
+use-in-game: "§c> Bu komudu oyunda kullan."
+no-perm: "§c> Bu komudu kullanmak için yeterli yetkin yok."
+ok: "Tamam"
+
+main-menu:
+  title: "Para menüsü"
+  content: "Paran: {money}TL{line}Aşağıdan bir işlem seç:"
+  buttons:
+    my: "Param"
+    look: "Başkalarının parasına bak"
+    pay: "Para gönder"
+    top: "Zenginler"
+    add: "Para ekle"
+    subtract: "Para kes"
+    set: "Para ayarla"
+
+mymoney-menu:
+  content: "Paran: ${money}"
+
+seemoney-menu:
+  title: "Para bak"
+  content: "Oyuncu seç:"
+  result: "{player} adlı oyuncunun parası: {money}TL"
+
+paymoney-menu:
+  title: "Para gönder"
+  error-warn: "Sunucuda senden başka kimse yok."
+  content: "Paran: {money}TL{line}Oyuncu seç:"
+  content1: "Para miktarını gir:"
+  error: "Pozitif bir sayı girmeliydin."
+  error1: "Yeterli paran yok!"
+  error2: "Kendine para gönderemezsin."
+  success: "Başarıyla {player} adlı oyuncuya {money}TL gönderildi."
+  success1: "{player} adlı oyuncu sana {money}TL gönderdi!"
+
+topmoney-menu:
+  title: "Zenginler - Sayfa {page}/{maxpage}"
+  format: "{league}) {player} - ${money}"
+  page-size: 10
+  next: "Sıradaki sayfa"
+  previous: "Önceki sayfa"
+  main-menu: "Ana menü"
+
+addmoney-menu:
+  title: "Para ekle"
+  content: "Oyuncu seç:"
+  content1: "Para miktarını gir:"
+  error: "Pozitif bir sayı girmeliydin."
+  success: "Başarıyla {player} adlı oyuncuya {money}TL eklendi."
+
+subtractmoney-menu:
+  title: "Para kes"
+  content: "Oyuncu seç:"
+  content1: "Para miktarını gir:"
+  error: "Pozitif bir sayı girmeliydin."
+  success: "Başarıyla {player} adlı oyuncudan {money}TL kesildi."
+
+setmoney-menu:
+  title: "Para ayarla"
+  content: "Oyuncu seç:"
+  content1: "Para miktarını gir:"
+  error: "Pozitif bir sayı girmeliydin."
+  success: "Başarıyla {player} adlı oyuncunun parası {money}TL olarak ayarlandı."
+
+command:
+  name: "paraui"
+  description: "Para menüsünü açar"
+  aliases:
+    - para
+...
