@@ -28,7 +28,7 @@ paymoney-menu:
   error-warn: "There is no one except you in the server."
   content: "Your money: ${money}{line}Select a player:"
   content1: "Type amount of money:"
-  error: "You should enter an integer."
+  error: "You should enter a positive integer."
   error1: "You don't have enough money!"
   error2: "You cannot pay to yourself."
   success: "Successfully paid ${money} to {player}."
@@ -46,21 +46,21 @@ addmoney-menu:
   title: "Add money"
   content: "Select a player:"
   content1: "Type amount of money:"
-  error: "You should enter an integer."
+  error: "You should enter a positive integer."
   success: "Successfully added ${money} to {player}."
 
 subtractmoney-menu:
   title: "Subtract money"
   content: "Select a player:"
   content1: "Type amount of money:"
-  error: "You should enter an integer."
+  error: "You should enter a positive integer."
   success: "Successfully subtracted ${money} from {player}."
 
 setmoney-menu:
   title: "Set money"
   content: "Select a player:"
   content1: "Type amount of money:"
-  error: "You should enter an integer."
+  error: "You should enter a positive integer."
   success: "Successfully {player}'s money set to ${money}."
 
 command:
