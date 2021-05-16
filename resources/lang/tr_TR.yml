@@ -16,7 +16,7 @@ main-menu:
     set: "Para ayarla"
 
 mymoney-menu:
-  content: "Paran: ${money}"
+  content: "Paran: {money}TL"
 
 seemoney-menu:
   title: "Para bak"
@@ -36,7 +36,7 @@ paymoney-menu:
 
 topmoney-menu:
   title: "Zenginler - Sayfa {page}/{maxpage}"
-  format: "{league}) {player} - ${money}"
+  format: "{league}) {player} - {money}TL"
   page-size: 10
   next: "Sıradaki sayfa"
   previous: "Önceki sayfa"
