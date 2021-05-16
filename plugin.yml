@@ -1,0 +1,7 @@
+---
+name: MoneyUI
+description: "A form system for EconomyAPI."
+api: 3.0.0
+version: 1.0.0
+main: OguzhanUmutlu\MoneyUI\MoneyUI
+...
