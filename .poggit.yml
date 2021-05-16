@@ -8,4 +8,6 @@ projects:
     libs:
       - src: dktapps-pm-pl/pmforms/pmforms
         version: ^1.0.0
+      - src: poggit-orphanage/EconomyS/EconomyAPI
+        version: ^5.7.2
 ...
