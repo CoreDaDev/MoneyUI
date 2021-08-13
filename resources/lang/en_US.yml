@@ -1,0 +1,70 @@
+---
+use-in-game: "§c> Use this command in-game."
+no-perm: "§c> You don't have permission to use this command."
+ok: "OK"
+
+main-menu:
+  title: "Money UI"
+  content: "Your money: ${money}{line}Select an action down below:"
+  buttons:
+    my: "My money"
+    look: "See others' money"
+    pay: "Pay money"
+    top: "Top money"
+    add: "Add money"
+    subtract: "Subtract money"
+    set: "Set money"
+
+mymoney-menu:
+  content: "Your money: ${money}"
+
+seemoney-menu:
+  title: "See money"
+  content: "Select a player:"
+  result: "Player {player}'s money: ${money}"
+
+paymoney-menu:
+  title: "Pay money"
+  error-warn: "There is no one except you in the server."
+  content: "Your money: ${money}{line}Select a player:"
+  content1: "Type amount of money:"
+  error: "You should enter a positive integer."
+  error1: "You don't have enough money!"
+  error2: "You cannot pay to yourself."
+  success: "Successfully paid ${money} to {player}."
+  success1: "{player} paid ${money} to you!"
+
+topmoney-menu:
+  title: "Top money - Page {page}/{maxpage}"
+  format: "{league}) {player} - ${money}"
+  page-size: 10
+  next: "Next page"
+  previous: "Previous page"
+  main-menu: "Main menu"
+
+addmoney-menu:
+  title: "Add money"
+  content: "Select a player:"
+  content1: "Type amount of money:"
+  error: "You should enter a positive integer."
+  success: "Successfully added ${money} to {player}."
+
+subtractmoney-menu:
+  title: "Subtract money"
+  content: "Select a player:"
+  content1: "Type amount of money:"
+  error: "You should enter a positive integer."
+  success: "Successfully subtracted ${money} from {player}."
+
+setmoney-menu:
+  title: "Set money"
+  content: "Select a player:"
+  content1: "Type amount of money:"
+  error: "You should enter a positive integer."
+  success: "Successfully {player}'s money set to ${money}."
+
+command:
+  name: "moneyui"
+  description: "Opens Money Menu"
+  aliases: []
+...
